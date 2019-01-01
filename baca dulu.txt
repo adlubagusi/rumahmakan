@@ -1,0 +1,8 @@
+1. masuk ke phpmyadmin
+2. klik database dbresto2
+3. klik SQL
+4. kopikan kode di bawah ini
+
+ALTER TABLE `penjualan` ADD `stts_pesan` ENUM('Belum Dimasak','Sudah Dimasak') NOT NULL AFTER `kd_user`;
+
+5. Go
