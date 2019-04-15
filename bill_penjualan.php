@@ -40,7 +40,7 @@ $max	 = ceil($jml/$row);
 //mulai dari sini
 
 
-//sele
+//selesai
 
 ?>
   <tr>

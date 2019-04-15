@@ -231,7 +231,7 @@ $dataUangBayar	= isset($_POST['txtUangBayar']) ? $_POST['txtUangBayar'] : '';
 	    <select name="cmbMenu">
           <option value="BLANK">....</option>
           <?php
-	  $mySql = "SELECT * FROM menu ORDER BY kd_menu";
+	  $mySql = "SELECT * FROM menu ORDER BY nm_menu";
 	  $myQry = mysql_query($mySql, $koneksidb) or die ("Gagal Query".mysql_error());
 	  while ($kolomData = mysql_fetch_array($myQry)) {
 	  	echo "<option value='$kolomData[kd_menu]'>[ $kolomData[kd_menu] ] $kolomData[nm_menu]</option>";

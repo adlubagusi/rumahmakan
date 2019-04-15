@@ -113,6 +113,6 @@ $kolomData = mysql_fetch_array($myQry);
   </tr>
 </table>
 
-<img src="images/btn_print.png" width="40" height="44" onClick="javascript:window.print()" />
+<img src="images/btn_print.png" width="40" height="44" onClick="javascript:window.print()" class="no_print" />
 </body>
 </html>

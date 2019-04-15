@@ -76,6 +76,7 @@ function form_tanggal($nama,$value=''){
 	";
 }
 
+#Fungsi untuk membuat angka terbilang
 function angkaTerbilang($x){
   $abil = array("", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan", "sepuluh", "sebelas");
   if ($x < 12)

@@ -17,6 +17,7 @@ $kolomData = mysql_fetch_array($myQry);
 <head>
 <title>Transaksi Pembelanjaan Stok</title>
 <link href="styles/style.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <table width="600" border="0" cellspacing="1" cellpadding="4" class="table-print">
@@ -88,6 +89,6 @@ $kolomData = mysql_fetch_array($myQry);
   </tr>
 </table>
 <br/>
-<img src="images/btn_print.png" width="40" height="44" onClick="javascript:window.print()" />
+<img src="images/btn_print.png" class="no_print" width="40" height="44" onClick="javascript:window.print()" />
 </body>
 </html>
