@@ -2,7 +2,7 @@
 # Konek ke Web Server Lokal
 $myHost	= "localhost";
 $myUser	= "root";
-$myPass	= "310801";
+$myPass	= "";
 $myDbs	= "dbresto2";
 
 # Konek ke Web Server Lokal
